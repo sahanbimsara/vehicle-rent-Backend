@@ -1,4 +1,4 @@
-package org.Example.model.dto;
+package org.Example.model.entity;
 
 import lombok.*;
 
@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 
 
-public class UserrDTO {
+public class UserEntity {
 
     private Long id;
     private String name;

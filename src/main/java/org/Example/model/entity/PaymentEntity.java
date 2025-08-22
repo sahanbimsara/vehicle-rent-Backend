@@ -8,7 +8,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 
-public class PaymentrEntity {
+public class PaymentEntity {
 
     private Long id;
     private String paymentDate;
