@@ -1,7 +1,7 @@
 package org.Example.controller;
 
 
-import org.Example.model.Car;
+import org.Example.model.dto.CarDTO;
 import org.Example.service.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +16,7 @@ public class CarController {
     @Autowired
     private CarService carService;
 
-    public List<Car> getAllCars(){
+    public List<CarDTO> getAllCars(){
         return carService.getAllCars();
     }
 }
